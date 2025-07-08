@@ -4,8 +4,8 @@ import numpy as np
 from pathlib import Path
 from contextlib import asynccontextmanager
 from app.models.lstm_model import TemperatureLSTM
+from app.config import BASE_DIR
 
-BASE_DIR = Path("models")
 FEATURES = 4
 
 @asynccontextmanager
